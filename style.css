@@ -1,0 +1,137 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.col-2{
+    width: 50%;
+}
+
+header{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0 50px 0;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.center-desktop a{
+    color: #4F5665;
+    font-size: 16px;
+    padding: 6px 20px;
+}
+
+.right-desktop a{
+    padding: 6px 20px;
+}
+
+.right-desktop .sign-in{
+    color:#0B132A;
+    font-weight: 500;
+}
+
+.right-desktop .sign-up{
+    color: #F53855;
+    border: 1px solid ;
+    border-radius: 50px;
+}
+
+.content-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left{
+    margin-left: 80px;
+}
+
+.content-left h1{
+    color: #0B132A;
+    font-weight: 600;
+    font-size: 36px;
+    height: 85px;
+    width: 405px;
+}
+
+.content-left p{
+    color:#4F5665;
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.content-left a{
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 48px;
+    border-radius: 10px;
+    border: 1px solid #F53838;
+    background-color: #F53838;
+}
+
+
+.content-right img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.box{
+    box-shadow: 0px 0px 8px 2px rgba(236,231,231,0.75);
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(236,231,231,0.75);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(236,231,231,0.75);
+    margin: 0 80px 0 80px;
+}
+
+.box-center{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item-user{
+    display: flex;
+    padding: 10px 30px;
+}
+
+.item-user img{
+    margin-right: 20px;
+}
+
+.item-user p{
+    margin-left: 20px;
+}
+
+.content-item-2{
+    display: flex;
+    margin-top: 90px;
+}
+
+.content-item-2 .content-right{
+ 
+}
+
+.content-item-2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-item-2 h1{
+    font-size: 30px;
+    font-weight: 400px;
+    height: 100px;
+    width: 380px;
+}
+
+.content-item-2 p{
+    font-size: 16px;
+    color: #4F5665;
+    width: 400px;
+}
+
+.content-item-2 .true-item{
+    display: flex;
+    align-items: center;
+}
